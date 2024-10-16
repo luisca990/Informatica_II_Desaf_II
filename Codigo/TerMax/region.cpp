@@ -1,5 +1,8 @@
 #include "region.h"
 
+Region::Region(){
+
+}
 Region::Region(std::string nombre, Combustible** tipos, int cantidad) : nombre(nombre), numCombustibles(cantidad) {
     tiposCombustibles = new Combustible*[numCombustibles];
     for (int i = 0; i < numCombustibles; ++i) {
@@ -18,9 +21,8 @@ std::string Region::getNombre() const {
     return nombre;
 }
 
-Combustible** Region::getTiposCombustibles(int &cantidadCombustibles) const {
-    cantidadCombustibles = numCombustibles;
-    return tiposCombustibles;
+Combustible* Region::getTipoCombustible(int combustible) const {
+    return tiposCombustibles[combustible];
 }
 
 void Region::setNombre(std::string nombre) {

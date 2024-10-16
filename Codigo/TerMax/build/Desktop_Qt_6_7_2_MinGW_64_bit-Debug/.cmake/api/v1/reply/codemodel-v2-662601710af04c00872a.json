@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-cad72c0fb9bd609c681f.json",
+					"jsonFile" : "directory-.-Debug-aad413025b1f3591c433.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TerMax::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TerMax-Debug-09b27b17875b766364d2.json",
+					"jsonFile" : "target-TerMax-Debug-c571636ecd718ae3ed41.json",
 					"name" : "TerMax",
 					"projectIndex" : 0
 				},

@@ -43,7 +43,9 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "F:/Luis/Cursos/Ingeniería te
 set(OLD_GLOB
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/archivo.cpp"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/combustible.cpp"
+  "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/constantes.cpp"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/estacionservicio.cpp"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/isla.cpp"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/main.cpp"
@@ -71,6 +73,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/*.h")
 set(OLD_GLOB
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/archivo.h"
+  "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/moc_predefs.h"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/combustible.h"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/constantes.h"
   "F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/estacionservicio.h"

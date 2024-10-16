@@ -1,9 +1,22 @@
 #include "constantes.h"
+#include "termaxgestionestacion.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 int main()
 {
 
-    int opcion, submenuOpcion;
+    int opcion, submenuOpcion,IdEstacion=1, totalEstaciones=0, region=0;
+    TermaxGestionEstacion empresa;
+
+    string nombreEstacion="",gerente="";
+    float latitud,longitud;
+    EstacionServicio nuevaEstacion;
+    EstacionServicio* estaciones;
+
+    Region** regiones;
 
     do {
         menuPrincipal();
@@ -17,11 +30,24 @@ int main()
                 switch (submenuOpcion) {
                 case 1:
                     printf("Opción seleccionada: Agregar estaciones de servicio.\n");
-                    // Aquí iría la lógica para agregar estaciones de servicio
+                    nombreEstacion=leerString("Ingrese el nombre de la estación: ");
+                    nuevaEstacion.setNombre(nombreEstacion);
+                    nuevaEstacion.setIdEstacion(std::to_string(IdEstacion));
+                    gerente=leerString(("Ingrese el nombre del gerente para la estación "+nombreEstacion+": ").c_str());
+                    nuevaEstacion.setGerente(gerente);
+                    latitud=leerFloat(("Ingrese la latitud para la estación "+nombreEstacion+": ").c_str());
+                    nuevaEstacion.setLatitud(latitud);
+                    longitud=leerFloat(("Ingrese la longitud para la estación "+nombreEstacion+": ").c_str());
+                    nuevaEstacion.setLongitud(longitud);
+                    empresa.agregarEstacion(&nuevaEstacion);
+                    empresa.getDevolverEstaciones();
+                    std::cout <<empresa.getDevolverEstaciones()[0].getIdEstacion();
                     break;
                 case 2:
                     printf("Opción seleccionada: Eliminar una E/S de la red nacional.\n");
-                    // Aquí iría la lógica para eliminar una E/S
+                    empresa.eliminarEstacion(leerString("Ingrese el id de la estación a eliminar: "));
+                    empresa.getDevolverEstaciones();
+                    std::cout <<empresa.getDevolverEstaciones()[0].getIdEstacion();
                     break;
                 case 3:
                     printf("Opción seleccionada: Calcular el monto total de las ventas.\n");
@@ -29,7 +55,14 @@ int main()
                     break;
                 case 4:
                     printf("Opción seleccionada: Fijar precios del combustible.\n");
-                    // Aquí iría la lógica para fijar precios
+                    regiones=inicializarCombustiblesRegiones();
+                    empresa.getDevolverEstaciones();
+                    totalEstaciones=empresa.getNumEstaciones();
+                    for (int i=0;i<totalEstaciones;i++) {
+                        region=leerEntero("Ingresar Region: 1. Centro. 2. Norte. 3. Sur: ");
+                        estaciones[i].setRegion(regiones[region-1]);
+                    }
+                    std::cout<<estaciones[0].getRegion()->getNombre();
                     break;
                 case 5:
                     printf("Volviendo al menú principal.\n");

@@ -8,6 +8,7 @@ private:
     float* capacidadExtra;
 
 public:
+    Tanque();
     Tanque(float regular[], float premium[], float extra[]);
     ~Tanque(); // Destructor para liberar memoria
     float getCapacidadRegular() const;

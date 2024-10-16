@@ -1,6 +1,10 @@
 #include "estacionservicio.h"
 
-EstacionServicio::EstacionServicio(std::string nombre, std::string idEstacion, std::string gerente, Region region,
+EstacionServicio::EstacionServicio(){
+
+}
+
+EstacionServicio::EstacionServicio(std::string nombre, std::string idEstacion, std::string gerente, Region* region,
                                    float latitud, float longitud, Tanque tanque, Isla** islas, int cantidadIslas)
     : nombre(nombre), idEstacion(idEstacion), gerente(gerente), region(region), latitud(latitud), longitud(longitud),
     tanque(tanque), numIslas(cantidadIslas) {
@@ -26,7 +30,7 @@ std::string EstacionServicio::getNombre() const {
     return nombre;
 }
 
-Region EstacionServicio::getRegion() const {
+Region* EstacionServicio::getRegion() const {
     return region;
 }
 
@@ -47,3 +51,26 @@ Isla** EstacionServicio::getIslas(int &cantidadIslas) const {
     return islas;
 }
 
+void EstacionServicio::setNombre(std::string nombreE){
+    nombre=nombreE;
+}
+
+void EstacionServicio::setIdEstacion(std::string idestacion){
+    idEstacion=idestacion;
+}
+
+void EstacionServicio::setGerente(std::string gerenteE){
+    gerente=gerenteE;
+}
+
+void EstacionServicio::setLatitud(float latitudE){
+    latitud=latitudE;
+}
+
+void EstacionServicio::setLongitud(float longitudE){
+    longitud=longitudE;
+}
+
+void EstacionServicio::setRegion(Region* regionE){
+    region=regionE;
+}
