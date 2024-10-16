@@ -1,11 +1,14 @@
 #include "tanque.h"
 
-Tanque::Tanque(float regular[], float premium[], float extra[]) {
-    capacidadRegular = new float[3];
-    capacidadPremium = new float[3];
-    capacidadExtra = new float[3];
+Tanque::Tanque(){
 
-    for (int i = 0; i < 3; ++i) {
+}
+Tanque::Tanque(float regular[], float premium[], float extra[]) {
+    capacidadRegular = new float[2];
+    capacidadPremium = new float[2];
+    capacidadExtra = new float[2];
+
+    for (int i = 0; i < 2; ++i) {
         capacidadRegular[i] = regular[i];
         capacidadPremium[i] = premium[i];
         capacidadExtra[i] = extra[i];

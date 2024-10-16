@@ -10,7 +10,7 @@ private:
     std::string nombre;
     std::string idEstacion;
     std::string gerente;
-    Region region;
+    Region* region;
     float latitud;
     float longitud;
     Tanque tanque;
@@ -18,14 +18,21 @@ private:
     int numIslas;
 
 public:
-    EstacionServicio(std::string, std::string, std::string, Region, float, float, Tanque, Isla** islas, int cantidadIslas);
+    EstacionServicio();
+    EstacionServicio(std::string, std::string, std::string, Region*, float, float, Tanque, Isla** islas, int cantidadIslas);
     ~EstacionServicio();  // Destructor para liberar memoria
     std::string getIdEstacion() const;
     std::string getNombre() const;
-    Region getRegion() const;
+    Region* getRegion() const;
     float getLatitud() const;
     float getLongitud() const;
     Tanque getTanque() const;
+    void setNombre(std::string nombreE);
+    void setIdEstacion(std::string idestacion);
+    void setGerente(std::string gerenteE);
+    void setLatitud(float latitudE);
+    void setLongitud(float longitudE);
+    void setRegion(Region* region);
     Isla** getIslas(int &cantidadIslas) const;
 };
 

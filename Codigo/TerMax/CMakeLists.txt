@@ -27,6 +27,7 @@ add_executable(TerMax
   termaxgestionestacion.h termaxgestionestacion.cpp
   constantes.h
   archivo.h archivo.cpp
+  constantes.cpp
 
 )
 target_link_libraries(TerMax Qt${QT_VERSION_MAJOR}::Core)

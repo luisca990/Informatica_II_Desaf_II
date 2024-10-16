@@ -10,10 +10,11 @@ private:
     int numCombustibles;
 
 public:
+    Region();
     Region(std::string, Combustible** tipos, int cantidad);
     ~Region();  // Destructor para liberar memoria
     std::string getNombre() const;
-    Combustible** getTiposCombustibles(int &cantidadCombustibles) const;
+    Combustible* getTipoCombustible(int combustible) const;
     void setNombre(std::string nombre);
     void setTiposCombustibles(Combustible** combustibles, int cantidad);
     void definirCombustible(short indice, Combustible* combustible);

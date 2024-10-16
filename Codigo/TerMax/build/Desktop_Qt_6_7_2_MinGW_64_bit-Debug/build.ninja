@@ -137,6 +137,14 @@ build CMakeFiles/TerMax.dir/archivo.cpp.obj: CXX_COMPILER__TerMax_unscanned_Debu
   OBJECT_DIR = CMakeFiles\TerMax.dir
   OBJECT_FILE_DIR = CMakeFiles\TerMax.dir
 
+build CMakeFiles/TerMax.dir/constantes.cpp.obj: CXX_COMPILER__TerMax_unscanned_Debug F$:/Luis/Cursos/Ingeniería$ teleco/Tercer$ semes/Informatica$ 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/constantes.cpp || cmake_object_order_depends_target_TerMax
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\TerMax.dir\constantes.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/include" -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/include/QtCore -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/include -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\TerMax.dir
+  OBJECT_FILE_DIR = CMakeFiles\TerMax.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TerMax
@@ -145,7 +153,7 @@ build CMakeFiles/TerMax.dir/archivo.cpp.obj: CXX_COMPILER__TerMax_unscanned_Debu
 #############################################
 # Link the executable TerMax.exe
 
-build TerMax.exe: CXX_EXECUTABLE_LINKER__TerMax_Debug CMakeFiles/TerMax.dir/TerMax_autogen/mocs_compilation.cpp.obj CMakeFiles/TerMax.dir/main.cpp.obj CMakeFiles/TerMax.dir/combustible.cpp.obj CMakeFiles/TerMax.dir/venta.cpp.obj CMakeFiles/TerMax.dir/surtidor.cpp.obj CMakeFiles/TerMax.dir/isla.cpp.obj CMakeFiles/TerMax.dir/tanque.cpp.obj CMakeFiles/TerMax.dir/region.cpp.obj CMakeFiles/TerMax.dir/estacionservicio.cpp.obj CMakeFiles/TerMax.dir/termaxgestionestacion.cpp.obj CMakeFiles/TerMax.dir/archivo.cpp.obj | F$:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/libQt6Core.a || TerMax_autogen TerMax_autogen_timestamp_deps
+build TerMax.exe: CXX_EXECUTABLE_LINKER__TerMax_Debug CMakeFiles/TerMax.dir/TerMax_autogen/mocs_compilation.cpp.obj CMakeFiles/TerMax.dir/main.cpp.obj CMakeFiles/TerMax.dir/combustible.cpp.obj CMakeFiles/TerMax.dir/venta.cpp.obj CMakeFiles/TerMax.dir/surtidor.cpp.obj CMakeFiles/TerMax.dir/isla.cpp.obj CMakeFiles/TerMax.dir/tanque.cpp.obj CMakeFiles/TerMax.dir/region.cpp.obj CMakeFiles/TerMax.dir/estacionservicio.cpp.obj CMakeFiles/TerMax.dir/termaxgestionestacion.cpp.obj CMakeFiles/TerMax.dir/archivo.cpp.obj CMakeFiles/TerMax.dir/constantes.cpp.obj | F$:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/libQt6Core.a || TerMax_autogen TerMax_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = F:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TerMax.dir

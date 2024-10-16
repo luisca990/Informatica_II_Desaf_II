@@ -1,0 +1,82 @@
+# ninja log v6
+485	1517	7506203889670959	CMakeFiles/TerMax.dir/isla.cpp.obj	86e885c2cb8a18ad
+29	153	7506627872068726	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+166	351	7506627873429311	TerMax_autogen/timestamp	b2068b764c411946
+166	351	7506627873429311	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+166	351	7506627873429311	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+166	351	7506627873429311	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+462	1493	7506203889434680	CMakeFiles/TerMax.dir/combustible.cpp.obj	21bd9459705f05c
+455	736	7506203889374289	CMakeFiles/TerMax.dir/TerMax_autogen/mocs_compilation.cpp.obj	49dc1da919cc098
+634	814	7506292402013966	CMakeFiles/TerMax.dir/tanque.cpp.obj	e9d5ecb5d685ad55
+225	621	7506558684917601	CMakeFiles/TerMax.dir/termaxgestionestacion.cpp.obj	14ff0d811378f7ee
+325	1019	7506625242331194	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+481	1503	7506203889629348	CMakeFiles/TerMax.dir/surtidor.cpp.obj	a0dd9b5aeb64c6c
+221	576	7506558684871356	CMakeFiles/TerMax.dir/estacionservicio.cpp.obj	4cd18056c599f983
+465	1520	7506203889478527	CMakeFiles/TerMax.dir/venta.cpp.obj	21043bb560cb646e
+201	569	7506326088013336	CMakeFiles/TerMax.dir/region.cpp.obj	6e63a4dfae48ea92
+511	2022	7506203889886000	CMakeFiles/TerMax.dir/archivo.cpp.obj	ef58ebf14fcb649d
+1026	1245	7506627882031863	TerMax.exe	7598e416ccf3abdd
+79	1713	7506241327510201	build.ninja	e2131bae42999e37
+352	1026	7506627875283810	CMakeFiles/TerMax.dir/constantes.cpp.obj	733856e96f034948
+26	153	7506628331832849	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+168	319	7506628333250449	TerMax_autogen/timestamp	b2068b764c411946
+168	319	7506628333250449	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+168	319	7506628333250449	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+168	319	7506628333250449	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+319	943	7506628334770373	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+944	1197	7506628341010021	TerMax.exe	7598e416ccf3abdd
+25	149	7506631368274262	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+160	352	7506631369627068	TerMax_autogen/timestamp	b2068b764c411946
+160	352	7506631369627068	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+160	352	7506631369627068	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+160	352	7506631369627068	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+353	902	7506631371557955	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+902	1068	7506631377044176	TerMax.exe	7598e416ccf3abdd
+77	250	7506638317228675	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+261	505	7506638319059628	TerMax_autogen/timestamp	b2068b764c411946
+261	505	7506638319059628	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+261	505	7506638319059628	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+261	505	7506638319059628	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+552	1637	7506638321979181	CMakeFiles/TerMax.dir/termaxgestionestacion.cpp.obj	14ff0d811378f7ee
+506	1644	7506638321518562	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+22	129	7506639240351230	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+139	310	7506639241527317	TerMax_autogen/timestamp	b2068b764c411946
+139	310	7506639241527317	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+139	310	7506639241527317	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+139	310	7506639241527317	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+316	826	7506639243299825	CMakeFiles/TerMax.dir/estacionservicio.cpp.obj	4cd18056c599f983
+321	938	7506639243353335	CMakeFiles/TerMax.dir/termaxgestionestacion.cpp.obj	14ff0d811378f7ee
+14	101	7506639541344005	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+109	230	7506639542299536	TerMax_autogen/timestamp	b2068b764c411946
+109	230	7506639542299536	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+109	230	7506639542299536	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+109	230	7506639542299536	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+230	784	7506639543511291	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+784	1355	7506639549040091	TerMax.exe	7598e416ccf3abdd
+33	212	7506641715319438	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+222	407	7506641717215648	TerMax_autogen/timestamp	b2068b764c411946
+222	407	7506641717215648	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+222	407	7506641717215648	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+222	407	7506641717215648	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+408	1104	7506641719078702	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+1104	1347	7506641726028205	TerMax.exe	7598e416ccf3abdd
+30	196	7506641917673629	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+21	199	7506646394804932	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+212	470	7506646396711169	TerMax_autogen/timestamp	b2068b764c411946
+212	470	7506646396711169	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+212	470	7506646396711169	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+212	470	7506646396711169	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+471	1306	7506646399303249	CMakeFiles/TerMax.dir/constantes.cpp.obj	733856e96f034948
+1306	1608	7506646407650990	TerMax.exe	7598e416ccf3abdd
+29	201	7506646445661532	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+17	189	7506646757077115	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+20	175	7506646780435240	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+11	88	7506672339527803	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+94	205	7506672340370785	TerMax_autogen/timestamp	b2068b764c411946
+94	205	7506672340370785	TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+94	205	7506672340370785	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/timestamp	b2068b764c411946
+94	205	7506672340370785	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/TerMax_autogen/mocs_compilation.cpp	b2068b764c411946
+206	580	7506672341477412	CMakeFiles/TerMax.dir/main.cpp.obj	2a6168106835728d
+580	729	7506672345227039	TerMax.exe	7598e416ccf3abdd
+41	187	7506729263528706	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
+19	139	7506729461960380	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II/Informatica_II_Desaf_II/Codigo/TerMax/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	2637c94d8419059f
