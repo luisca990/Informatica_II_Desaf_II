@@ -1,4 +1,6 @@
 #include "EstacionServicio.h"
+#include "archivo.h"
+#include "utils.h"
 #include <cstdlib>
 #include <iostream>
 
@@ -6,9 +8,12 @@ int EstacionServicio::generadorCodigoEstacion = 1000;
 
 EstacionServicio::EstacionServicio(std::string nombre, std::string gerente, std::string region)
     : codigo(generarCodigo()), nombre(nombre), gerente(gerente), region(region), surtidores(nullptr), cantidadSurtidores(0) {
-    tanques[0] = new Combustible("Regular", 5000, 150);
-    tanques[1] = new Combustible("Premium", 7000, 100);
-    tanques[2] = new Combustible("EcoExtra", 6000, 120);
+    capacidadInicialTanque[0]=generarNumeroAleatorio(100,200);
+    capacidadInicialTanque[1]=generarNumeroAleatorio(100,200);
+    capacidadInicialTanque[2]=generarNumeroAleatorio(100,200);
+    tanques[0] = new Combustible("Regular",capacidadInicialTanque[0] , 150);
+    tanques[1] = new Combustible("Premium", capacidadInicialTanque[1], 100);
+    tanques[2] = new Combustible("EcoExtra", capacidadInicialTanque[2], 120);
 }
 
 std::string EstacionServicio::generarCodigo() {
@@ -40,21 +45,27 @@ void EstacionServicio::simularVenta() {
         }
     }
 
+
     int tipoCombustible = rand() % 3;
-    float litrosSolicitados = 3 + (rand() % 18);
+    float litrosSolicitados =generarNumeroAleatorio(3,20);
 
     Transaccion* transaccion = surtidorActivo->simularVenta(litrosSolicitados,
                                                             tanques[tipoCombustible]->obtenerTipo());
     tanques[tipoCombustible]->ajustarCapacidad(litrosSolicitados);
 
     std::cout << "Venta simulada: " << transaccion->obtenerDatos() << "\n";
+    Archivo archivo;
+    archivo.guardarTransaccion(transaccion, "Surtidor "+codigo+"_"+std::to_string(surtidorActivo->obtenerCodigo())+".txt");
+
+
 }
 
 bool EstacionServicio::verificarCapacidad() const {
     float capacidadActual = tanques[0]->obtenerCapacidad() +
                             tanques[1]->obtenerCapacidad() +
                             tanques[2]->obtenerCapacidad();
-    return (capacidadActual / (5000 + 7000 + 6000)) >= 0.95;
+    return (capacidadActual / (capacidadInicialTanque[0] + capacidadInicialTanque[1] + capacidadInicialTanque[
+    2])) >= 0.95;
 }
 
 std::string EstacionServicio::obtenerCodigo() const {
@@ -76,6 +87,19 @@ Surtidor** EstacionServicio::getSurtidores(){
     return surtidores;
 }
 
+int EstacionServicio::getCantidadSurtidores(){
+    return cantidadSurtidores;
+}
+
+void EstacionServicio::mostrarSurtidores() const {
+    std::cout << "surtidores de la estación de servicio:\n";
+    for (int i = 0; i < cantidadSurtidores; ++i) {
+        std::cout << "Código: " << surtidores[i]->obtenerCodigo()
+                  << ", Modelo: " << surtidores[i]->getModelo()
+                  << ", Estado: " << surtidores[i]->estaActivo()<< "\n";
+    }
+
+}
 EstacionServicio::~EstacionServicio() {
     delete tanques[0];
     delete tanques[1];

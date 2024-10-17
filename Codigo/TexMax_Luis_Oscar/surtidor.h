@@ -3,6 +3,8 @@
 
 #include <string>
 #include "Transaccion.h"
+#include "utils.h"
+
 
 class Surtidor {
 private:
@@ -21,6 +23,9 @@ public:
     bool estaActivo() const;
     void actualizarEstado(bool estado);
     int obtenerCodigo() const;
+    std::string getModelo();
+    ventasCategoria getVentasEstacion();
+    ventasCategoria getVentasEstacionLitros();
     ~Surtidor();
 };
 

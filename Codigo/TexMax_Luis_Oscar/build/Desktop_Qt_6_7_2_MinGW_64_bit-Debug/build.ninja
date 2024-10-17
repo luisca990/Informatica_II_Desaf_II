@@ -105,6 +105,22 @@ build CMakeFiles/Des.dir/rednacional.cpp.obj: CXX_COMPILER__Des_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\Des.dir
   OBJECT_FILE_DIR = CMakeFiles\Des.dir
 
+build CMakeFiles/Des.dir/utils.cpp.obj: CXX_COMPILER__Des_unscanned_Debug F$:/Luis/Cursos/Ingeniería$ teleco/Tercer$ semes/Informatica$ 2/Teoria/Desafio_II_V2/Des/utils.cpp || cmake_object_order_depends_target_Des
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Des.dir\utils.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/include" -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/include/QtCore -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/include -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\Des.dir
+  OBJECT_FILE_DIR = CMakeFiles\Des.dir
+
+build CMakeFiles/Des.dir/archivo.cpp.obj: CXX_COMPILER__Des_unscanned_Debug F$:/Luis/Cursos/Ingeniería$ teleco/Tercer$ semes/Informatica$ 2/Teoria/Desafio_II_V2/Des/archivo.cpp || cmake_object_order_depends_target_Des
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Des.dir\archivo.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/include" -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/include/QtCore -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/include -isystem F:/instalaciones/QT_Creator/6.7.2/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\Des.dir
+  OBJECT_FILE_DIR = CMakeFiles\Des.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Des
@@ -113,7 +129,7 @@ build CMakeFiles/Des.dir/rednacional.cpp.obj: CXX_COMPILER__Des_unscanned_Debug 
 #############################################
 # Link the executable Des.exe
 
-build Des.exe: CXX_EXECUTABLE_LINKER__Des_Debug CMakeFiles/Des.dir/Des_autogen/mocs_compilation.cpp.obj CMakeFiles/Des.dir/main.cpp.obj CMakeFiles/Des.dir/combustible.cpp.obj CMakeFiles/Des.dir/transaccion.cpp.obj CMakeFiles/Des.dir/surtidor.cpp.obj CMakeFiles/Des.dir/estacionservicio.cpp.obj CMakeFiles/Des.dir/rednacional.cpp.obj | F$:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/libQt6Core.a || Des_autogen Des_autogen_timestamp_deps
+build Des.exe: CXX_EXECUTABLE_LINKER__Des_Debug CMakeFiles/Des.dir/Des_autogen/mocs_compilation.cpp.obj CMakeFiles/Des.dir/main.cpp.obj CMakeFiles/Des.dir/combustible.cpp.obj CMakeFiles/Des.dir/transaccion.cpp.obj CMakeFiles/Des.dir/surtidor.cpp.obj CMakeFiles/Des.dir/estacionservicio.cpp.obj CMakeFiles/Des.dir/rednacional.cpp.obj CMakeFiles/Des.dir/utils.cpp.obj CMakeFiles/Des.dir/archivo.cpp.obj | F$:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/libQt6Core.a || Des_autogen Des_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = F:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Des.dir

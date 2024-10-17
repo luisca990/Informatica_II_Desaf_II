@@ -22,6 +22,9 @@ add_executable(Des
   surtidor.h surtidor.cpp
   estacionservicio.h estacionservicio.cpp
   rednacional.h rednacional.cpp
+  utils.h
+  utils.cpp
+  archivo.h archivo.cpp
 )
 target_link_libraries(Des Qt${QT_VERSION_MAJOR}::Core)
 

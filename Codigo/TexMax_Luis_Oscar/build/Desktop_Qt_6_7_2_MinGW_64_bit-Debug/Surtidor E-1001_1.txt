@@ -1,0 +1,28 @@
+Fecha: 2024-10-16
+Tipo de Combustible: EcoExtra
+Cantidad: 12.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 60000.000000
+--------------------------
+Fecha: 2024-10-16
+Tipo de Combustible: Premium
+Cantidad: 8.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 40000.000000
+--------------------------
+Fecha: 2024-10-16
+Tipo de Combustible: Regular
+Cantidad: 10.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 50000.000000
+--------------------------
+Fecha: 2024-10-16
+Tipo de Combustible: Premium
+Cantidad: 14.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 70000.000000
+--------------------------

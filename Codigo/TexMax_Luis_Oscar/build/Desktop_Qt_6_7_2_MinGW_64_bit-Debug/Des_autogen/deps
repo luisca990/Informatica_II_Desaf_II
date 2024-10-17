@@ -1,5 +1,7 @@
 Des_autogen/timestamp: \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/CMakeLists.txt \
+	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/archivo.cpp \
+	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/archivo.h \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
@@ -15,6 +17,8 @@ Des_autogen/timestamp: \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/surtidor.h \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/transaccion.cpp \
 	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/transaccion.h \
+	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/utils.cpp \
+	F:/Luis/Cursos/Ingeniería\ teleco/Tercer\ semes/Informatica\ 2/Teoria/Desafio_II_V2/Des/utils.h \
 	F:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	F:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \
 	F:/instalaciones/QT_Creator/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \

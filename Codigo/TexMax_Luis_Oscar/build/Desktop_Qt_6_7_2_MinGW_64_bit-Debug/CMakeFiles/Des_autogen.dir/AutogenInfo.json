@@ -152,6 +152,12 @@
 	"HEADERS" : 
 	[
 		[
+			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/archivo.h",
+			"MU",
+			"EWIEGA46WW/moc_archivo.cpp",
+			null
+		],
+		[
 			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/combustible.h",
 			"MU",
 			"EWIEGA46WW/moc_combustible.cpp",
@@ -179,6 +185,12 @@
 			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/transaccion.h",
 			"MU",
 			"EWIEGA46WW/moc_transaccion.cpp",
+			null
+		],
+		[
+			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/utils.h",
+			"MU",
+			"EWIEGA46WW/moc_utils.cpp",
 			null
 		]
 	],
@@ -249,6 +261,11 @@
 	"SOURCES" : 
 	[
 		[
+			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/archivo.cpp",
+			"MU",
+			null
+		],
+		[
 			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/combustible.cpp",
 			"MU",
 			null
@@ -275,6 +292,11 @@
 		],
 		[
 			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/transaccion.cpp",
+			"MU",
+			null
+		],
+		[
+			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/utils.cpp",
 			"MU",
 			null
 		]

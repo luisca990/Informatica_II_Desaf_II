@@ -13,6 +13,7 @@ private:
     std::string gerente;
     std::string region;
     Combustible* tanques[3];
+    short capacidadInicialTanque[3];
     Surtidor** surtidores;
     int cantidadSurtidores;
 
@@ -28,6 +29,8 @@ public:
     std::string obtenerGerente() const;
     std::string obtenerRegion() const;
     Surtidor** getSurtidores();
+    void mostrarSurtidores() const ;
+    int getCantidadSurtidores();
 
     ~EstacionServicio();
 };
