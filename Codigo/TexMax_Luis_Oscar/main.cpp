@@ -453,6 +453,22 @@ void mostrarSurtidores(RedNacional& red) {
     }
 
 }
+
+void eliminarMemoriaDinamica(RedNacional& red){
+    EstacionServicio** estacionesTemp= red.getEstaciones();
+    ventasCategoria tmpVentas;
+    int totalEstaciones=red.getCantidadEstaciones();
+    for (int var = 0; var < totalEstaciones; ++var) {
+            Surtidor ** surtidores=estacionesTemp[var]->getSurtidores();
+            int cantidadSurtidores=estacionesTemp[var]->getCantidadSurtidores();
+            for (int i=0;i<cantidadSurtidores;i++){
+                surtidores[i]->~Surtidor();
+            }
+            delete [] surtidores;
+            estacionesTemp[var]->~EstacionServicio();
+        }
+    delete [] estacionesTemp;
+}
 int main() {
     srand(time(0));  // Inicializar la semilla para números aleatorios
     RedNacional redNacional;
@@ -495,6 +511,7 @@ int main() {
             break;
         case 11:
             std::cout << "Saliendo del programa...\n";
+            eliminarMemoriaDinamica(redNacional);
             break;
         default:
             std::cout << "Opción no válida. Intente de nuevo.\n";
