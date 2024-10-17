@@ -1,5 +1,6 @@
 #include "Combustible.h"
 #include "EstacionServicio.h"
+#include "archivo.h"
 #include "rednacional.h"
 #include "surtidor.h"
 #include "transaccion.h"
@@ -284,13 +285,21 @@ public:
 */
 // Funciones del menú
 void mostrarMenu() {
-    std::cout << "----- Menu Principal -----\n";
-    std::cout << "1. Agregar estación de servicio\n";
-    std::cout << "2. Mostrar estaciones de servicio\n";
-    std::cout << "3. Simular venta de combustible\n";
-    std::cout << "4. Verificar fuga de combustible\n";
-    std::cout << "5. Agregar surtidor\n";
-    std::cout << "6. Salir\n";
+    std::cout << "==============================\n";
+    std::cout << "       *** MENU PRINCIPAL ***       \n";
+    std::cout << "==============================\n";
+    std::cout << "1.  Agregar estación de servicio\n";
+    std::cout << "2.  Mostrar estaciones de servicio\n";
+    std::cout << "3.  Simular venta de combustible\n";
+    std::cout << "4.  Verificar fuga de combustible\n";
+    std::cout << "5.  Agregar surtidor\n";
+    std::cout << "6.  Calcular el monto total de las ventas por categoría a nivel nacional\n";
+    std::cout << "7.  Histórico de transacciones por surtidor\n";
+    std::cout << "8.  Litros vendidos por categoría\n";
+    std::cout << "9.  Cambiar estado de un surtidor\n";
+    std::cout << "10. Mostrar surtidores\n";
+    std::cout << "11. Salir\n";
+    std::cout << "==============================\n";
     std::cout << "Ingrese su opción: ";
 }
 
@@ -342,14 +351,108 @@ void agregarSurtidor(RedNacional& red) {
     for (int var = 0; var < totalEstaciones; ++var) {
         if(estacionesTemp[var]->obtenerCodigo()==codigo){
             estacionesTemp[var]->agregarSurtidor(new Surtidor(codigo));
-            std::cout <<estacionesTemp[var]->getSurtidores()[0]->obtenerCodigo();
+            //std::cout <<estacionesTemp[var]->getSurtidores()[0]->obtenerCodigo();
         }
     }
     //delete [] estacionesTemp;
     std::cout << "Surtidor agregado con éxito.\n";
 }
 
+void obtenerVentasXEstacionCategoria(RedNacional& red) {
+    EstacionServicio** estacionesTemp= red.getEstaciones();
+    float ventasTotales[3]={0.0,0.0,0.0};
+    ventasCategoria tmpVentas;
+    int totalEstaciones=red.getCantidadEstaciones();
+    for (int var = 0; var < totalEstaciones; ++var) {
+        Surtidor ** surtidores=estacionesTemp[var]->getSurtidores();
+        int cantidadSurtidores=estacionesTemp[var]->getCantidadSurtidores();
+        for (int i=0;i<cantidadSurtidores;i++){
+            tmpVentas=surtidores[i]->getVentasEstacion();
+            ventasTotales[0]=tmpVentas.Regular;
+            ventasTotales[1]=tmpVentas.Premium;
+            ventasTotales[2]=tmpVentas.EcoExtra;
+        }
 
+    }
+    //delete [] estacionesTemp;
+    printf("El monto total de las ventas en la categoria de combustible Regular fueron: %f\n",ventasTotales[0]);
+    printf("El monto total de las ventas en la categoria de combustible Premium fueron: %f\n",ventasTotales[1]);
+    printf("El monto total de las ventas en la categoria de combustible EcoExtra fueron: %f\n",ventasTotales[2]);
+}
+
+void obtenerVentasXSurtidor(RedNacional& red) {
+    EstacionServicio** estacionesTemp= red.getEstaciones();
+    Archivo arch;
+    int totalEstaciones=red.getCantidadEstaciones();
+    for (int var = 0; var < totalEstaciones; ++var) {
+        Surtidor ** surtidores=estacionesTemp[var]->getSurtidores();
+        int cantidadSurtidores=estacionesTemp[var]->getCantidadSurtidores();
+        for (int i=0;i<cantidadSurtidores;i++){
+            std::cout << "Las ventas que se muestran corresponden a la estacion: "+estacionesTemp[var]->obtenerCodigo()+". Y al surtidor: "+std::to_string(surtidores[i]->obtenerCodigo())<<std::endl;
+            arch.leerVentas("Surtidor "+estacionesTemp[var]->obtenerCodigo()+"_"+std::to_string(surtidores[i]->obtenerCodigo())+".txt");
+        }
+
+    }
+    //delete [] estacionesTemp;
+}
+
+void obtenerVentasXEstacionCategoriaLitros(RedNacional& red) {
+    EstacionServicio** estacionesTemp= red.getEstaciones();
+    float ventasTotales[3]={0.0,0.0,0.0};
+    ventasCategoria tmpVentas;
+    int totalEstaciones=red.getCantidadEstaciones();
+    for (int var = 0; var < totalEstaciones; ++var) {
+        Surtidor ** surtidores=estacionesTemp[var]->getSurtidores();
+        int cantidadSurtidores=estacionesTemp[var]->getCantidadSurtidores();
+        for (int i=0;i<cantidadSurtidores;i++){
+            tmpVentas=surtidores[i]->getVentasEstacionLitros();
+            ventasTotales[0]=tmpVentas.Regular;
+            ventasTotales[1]=tmpVentas.Premium;
+            ventasTotales[2]=tmpVentas.EcoExtra;
+        }
+
+    }
+
+    printf("La cantidad total de litros vendidios en la categoria de combustible Regular fueron: %f\n",ventasTotales[0]);
+    printf("La cantidad total de litros vendidios en la categoria de combustible Premium fueron: %f\n",ventasTotales[1]);
+    printf("La cantidad total de litros vendidios en la categoria de combustible EcoExtra fueron: %f\n",ventasTotales[2]);
+}
+
+void cambiarEstadoSurtidor(RedNacional& red) {
+    EstacionServicio** estacionesTemp= red.getEstaciones();
+    ventasCategoria tmpVentas;
+    int totalEstaciones=red.getCantidadEstaciones();
+    for (int var = 0; var < totalEstaciones; ++var) {
+        std::string estacionSel=leerString("Ingrese el código de la estación donde está el surtidor a activar o desactivar: ");
+        if(estacionesTemp[var]->obtenerCodigo()==estacionSel){
+            int surtidSe=leerEntero("Ingrese el código (número entero) del surtidor a cambiar el estado:");
+            Surtidor ** surtidores=estacionesTemp[var]->getSurtidores();
+            int cantidadSurtidores=estacionesTemp[var]->getCantidadSurtidores();
+            for (int i=0;i<cantidadSurtidores;i++){
+                if(surtidores[i]->obtenerCodigo()==surtidSe){
+                    surtidores[i]->actualizarEstado(surtidores[i]->estaActivo()==true?false:true);
+                    printf("Estado cambiado correctamente\n");
+                }
+            }
+        }
+
+
+    }
+}
+
+void mostrarSurtidores(RedNacional& red) {
+    EstacionServicio** estacionesTemp= red.getEstaciones();
+    ventasCategoria tmpVentas;
+    int totalEstaciones=red.getCantidadEstaciones();
+    for (int var = 0; var < totalEstaciones; ++var) {
+        std::string estacionSel=leerString("Ingrese el código de la estación de la que desea mostrar los surtidores: ");
+        if(estacionesTemp[var]->obtenerCodigo()==estacionSel){
+            estacionesTemp[var]->mostrarSurtidores();
+        }
+
+    }
+
+}
 int main() {
     srand(time(0));  // Inicializar la semilla para números aleatorios
     RedNacional redNacional;
@@ -376,12 +479,27 @@ int main() {
             agregarSurtidor(redNacional);
             break;
         case 6:
+            obtenerVentasXEstacionCategoria(redNacional);
+            break;
+        case 7:
+            obtenerVentasXSurtidor(redNacional);
+            break;
+        case 8:
+            obtenerVentasXEstacionCategoriaLitros(redNacional);
+            break;
+        case 9:
+            cambiarEstadoSurtidor(redNacional);
+            break;
+        case 10:
+            mostrarSurtidores(redNacional);
+            break;
+        case 11:
             std::cout << "Saliendo del programa...\n";
             break;
         default:
             std::cout << "Opción no válida. Intente de nuevo.\n";
         }
-    } while (opcion != 6);
+    } while (opcion != 11);
 
     return 0;
 }

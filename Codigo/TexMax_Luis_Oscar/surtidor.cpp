@@ -1,7 +1,10 @@
 #include "Surtidor.h"
+#include "utils.h"
 #include <cstdlib>
 
 int Surtidor::generadorCodigo = 0;
+
+
 
 Surtidor::Surtidor(std::string modelo)
     : codigo(++generadorCodigo), modelo(modelo), activo(true),
@@ -20,7 +23,7 @@ void Surtidor::registrarVenta(Transaccion* transaccion) {
 
 Transaccion* Surtidor::simularVenta(float litros, std::string tipo) {
     float monto = calcularMonto(litros, tipo);
-    Transaccion* t = new Transaccion("2024-10-15", litros, tipo, "Efectivo", "Cliente123", monto);
+    Transaccion* t = new Transaccion(obtenerFechaActual(), litros, tipo, opcionesPago[generarNumeroAleatorio(0,2)], "Cliente "+std::to_string(generarNumeroAleatorio(0,2)), monto);
     registrarVenta(t);
     return t;
 }
@@ -40,7 +43,37 @@ void Surtidor::actualizarEstado(bool estado) {
 int Surtidor::obtenerCodigo() const {
     return codigo;
 }
+std::string  Surtidor::getModelo(){
+    return modelo;
+}
 
+ventasCategoria Surtidor::getVentasEstacion(){
+    ventasCategoria ventasCat;
+    for(int i=0;i<cantidadTransacciones;i++){
+        if(transacciones[i]->getTipoCombustible()=="Regular"){
+            ventasCat.Regular+=transacciones[i]->getMonto();
+        }else if(transacciones[i]->getTipoCombustible()=="Premium"){
+            ventasCat.Premium+=transacciones[i]->getMonto();
+        }else{
+            ventasCat.EcoExtra+=transacciones[i]->getMonto();
+        }
+    }
+    return ventasCat;
+}
+
+ventasCategoria Surtidor::getVentasEstacionLitros(){
+    ventasCategoria ventasCat;
+    for(int i=0;i<cantidadTransacciones;i++){
+        if(transacciones[i]->getTipoCombustible()=="Regular"){
+            ventasCat.Regular+=transacciones[i]->getLitros();
+        }else if(transacciones[i]->getTipoCombustible()=="Premium"){
+            ventasCat.Premium+=transacciones[i]->getLitros();
+        }else{
+            ventasCat.EcoExtra+=transacciones[i]->getLitros();
+        }
+    }
+    return ventasCat;
+}
 
 Surtidor::~Surtidor() {
     for (int i = 0; i < cantidadTransacciones; ++i) {

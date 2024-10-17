@@ -17,6 +17,13 @@ public:
                 std::string metodoPago, std::string cliente, float monto);
 
     std::string obtenerDatos() const;
+
+    std::string getFecha() const;
+    float getLitros() const;
+    std::string getTipoCombustible() const;
+    std::string getMetodoPago() const;
+    std::string getCliente() const;
+    float getMonto() const;
 };
 
 #endif // TRANSACCION_H
