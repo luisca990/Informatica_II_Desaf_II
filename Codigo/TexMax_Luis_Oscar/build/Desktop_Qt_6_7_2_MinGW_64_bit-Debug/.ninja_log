@@ -1,59 +1,43 @@
 # ninja log v6
-100	215	7508386106226635	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
-15	93	7508386105393678	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-100	215	7508386106226635	Des_autogen/timestamp	f849fcbd44211c83
-100	215	7508386106226635	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+23	147	7509186509998248	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
+155	347	7509181269219597	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
+155	347	7509181269219597	Des_autogen/timestamp	f849fcbd44211c83
+155	347	7509181269219597	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+375	1284	7509181271424921	CMakeFiles/Des.dir/utils.cpp.obj	ef3535b2ed99b48c
+155	347	7509181269219597	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
 277	361	7507440845568940	CMakeFiles/Des.dir/Des_autogen/mocs_compilation.cpp.obj	6d28fd9d451873b3
-201	743	7508381493909066	CMakeFiles/Des.dir/utils.cpp.obj	ef3535b2ed99b48c
-100	215	7508386106226635	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-216	787	7508386107401660	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
-788	953	7508386113113137	Des.exe	dd17721f3bac79a3
-90	832	7508263803399338	build.ninja	9f23ea963150b549
+347	1224	7509181271146761	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
+1284	1552	7509181280514613	Des.exe	dd17721f3bac79a3
+90	832	7509186520048272	build.ninja	9f23ea963150b549
 292	797	7507829622806631	CMakeFiles/Des.dir/combustible.cpp.obj	3d7102e96d3680e7
 220	542	7508314696846685	CMakeFiles/Des.dir/transaccion.cpp.obj	10b5124d8c429016
-220	635	7508386107435785	CMakeFiles/Des.dir/surtidor.cpp.obj	99bbd98d8aac95d0
-223	781	7508386107466866	CMakeFiles/Des.dir/estacionservicio.cpp.obj	cf24ab54213d0730
-228	714	7508386107510470	CMakeFiles/Des.dir/rednacional.cpp.obj	45d6c5cf1e503ac
+353	1009	7509181271194232	CMakeFiles/Des.dir/surtidor.cpp.obj	99bbd98d8aac95d0
+359	1232	7509181271259609	CMakeFiles/Des.dir/estacionservicio.cpp.obj	cf24ab54213d0730
+369	1115	7509181271354830	CMakeFiles/Des.dir/rednacional.cpp.obj	45d6c5cf1e503ac
 322	1065	7508376730470996	CMakeFiles/Des.dir/archivo.cpp.obj	6e45866eda117f10
-17	92	7508387167541396	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-98	214	7508387168348507	Des_autogen/timestamp	f849fcbd44211c83
-98	214	7508387168348507	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-98	214	7508387168348507	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
-98	214	7508387168348507	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-215	664	7508387169518689	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
-664	811	7508387174004645	Des.exe	dd17721f3bac79a3
-15	84	7508388384667095	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-90	187	7508388385413840	Des_autogen/timestamp	f849fcbd44211c83
-90	187	7508388385413840	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-90	187	7508388385413840	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
-90	187	7508388385413840	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-188	633	7508388386392636	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
-633	785	7508388390848439	Des.exe	dd17721f3bac79a3
-14	87	7508396539850415	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-94	199	7508396540640409	Des_autogen/timestamp	f849fcbd44211c83
-94	199	7508396540640409	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-94	199	7508396540640409	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
-94	199	7508396540640409	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-204	534	7508396541749744	CMakeFiles/Des.dir/surtidor.cpp.obj	99bbd98d8aac95d0
-211	656	7508396541812360	CMakeFiles/Des.dir/rednacional.cpp.obj	45d6c5cf1e503ac
-207	677	7508396541782360	CMakeFiles/Des.dir/estacionservicio.cpp.obj	cf24ab54213d0730
-199	717	7508396541694882	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
-717	857	7508396546879939	Des.exe	dd17721f3bac79a3
-17	94	7508403954874780	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-100	207	7508403955715354	Des_autogen/timestamp	f849fcbd44211c83
-100	207	7508403955715354	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-100	207	7508403955715354	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
-100	207	7508403955715354	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-213	561	7508403956835577	CMakeFiles/Des.dir/surtidor.cpp.obj	99bbd98d8aac95d0
-221	626	7508403956905189	CMakeFiles/Des.dir/rednacional.cpp.obj	45d6c5cf1e503ac
-217	699	7508403956873453	CMakeFiles/Des.dir/estacionservicio.cpp.obj	cf24ab54213d0730
-208	710	7508403956785572	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
-710	868	7508403961796072	Des.exe	dd17721f3bac79a3
-20	90	7508404054040104	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-11	90	7508405795228942	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
-95	205	7508405796069499	Des_autogen/timestamp	f849fcbd44211c83
-95	205	7508405796069499	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-95	205	7508405796069499	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
-95	205	7508405796069499	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
-206	652	7508405797176310	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
-652	815	7508405801639299	Des.exe	dd17721f3bac79a3
+147	1244	7509186520048272	build.ninja	9f23ea963150b549
+55	169	7509186521973857	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
+179	331	7509186523224133	Des_autogen/timestamp	f849fcbd44211c83
+179	331	7509186523224133	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+179	331	7509186523224133	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
+179	331	7509186523224133	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+336	822	7509186524786854	CMakeFiles/Des.dir/combustible.cpp.obj	3d7102e96d3680e7
+340	879	7509186524835213	CMakeFiles/Des.dir/surtidor.cpp.obj	99bbd98d8aac95d0
+350	1002	7509186524931939	CMakeFiles/Des.dir/rednacional.cpp.obj	45d6c5cf1e503ac
+345	1097	7509186524884915	CMakeFiles/Des.dir/estacionservicio.cpp.obj	cf24ab54213d0730
+332	1102	7509186524746756	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
+1102	1384	7509186532447670	Des.exe	dd17721f3bac79a3
+22	143	7509188164420093	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
+153	339	7509188165731375	Des_autogen/timestamp	f849fcbd44211c83
+153	339	7509188165731375	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+153	339	7509188165731375	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
+153	339	7509188165731375	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+340	1050	7509188167590809	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
+1051	1298	7509188174702575	Des.exe	dd17721f3bac79a3
+42	215	7509188860439301	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	3e1c5b3650c89c8f
+228	425	7509188862302626	Des_autogen/timestamp	f849fcbd44211c83
+228	425	7509188862302626	Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+228	425	7509188862302626	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/timestamp	f849fcbd44211c83
+228	425	7509188862302626	F:/Luis/Cursos/Ingeniería teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Des_autogen/mocs_compilation.cpp	f849fcbd44211c83
+426	1225	7509188864290243	CMakeFiles/Des.dir/main.cpp.obj	80cf2294b2e7fc52
+1225	1473	7509188872262922	Des.exe	dd17721f3bac79a3

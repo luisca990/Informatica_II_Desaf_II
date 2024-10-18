@@ -152,6 +152,12 @@
 	"HEADERS" : 
 	[
 		[
+			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/Surtidor.h",
+			"MU",
+			"EWIEGA46WW/moc_Surtidor.cpp",
+			null
+		],
+		[
 			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/archivo.h",
 			"MU",
 			"EWIEGA46WW/moc_archivo.cpp",
@@ -173,12 +179,6 @@
 			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/rednacional.h",
 			"MU",
 			"EWIEGA46WW/moc_rednacional.cpp",
-			null
-		],
-		[
-			"F:/Luis/Cursos/Ingenier\u00eda teleco/Tercer semes/Informatica 2/Teoria/Desafio_II_V2/Des/surtidor.h",
-			"MU",
-			"EWIEGA46WW/moc_surtidor.cpp",
 			null
 		],
 		[

@@ -21,15 +21,15 @@ void Surtidor::registrarVenta(Transaccion* transaccion) {
     cantidadTransacciones++;
 }
 
-Transaccion* Surtidor::simularVenta(float litros, std::string tipo) {
-    float monto = calcularMonto(litros, tipo);
+Transaccion* Surtidor::simularVenta(float litros, std::string tipo, float precio) {
+    float monto = calcularMonto(litros, tipo,precio);
     Transaccion* t = new Transaccion(obtenerFechaActual(), litros, tipo, opcionesPago[generarNumeroAleatorio(0,2)], "Cliente "+std::to_string(generarNumeroAleatorio(0,2)), monto);
     registrarVenta(t);
     return t;
 }
 
-float Surtidor::calcularMonto(float litros, std::string tipo) {
-    return litros * 5000.0f;
+float Surtidor::calcularMonto(float litros, std::string tipo, float precio) {
+    return litros * precio;
 }
 
 bool Surtidor::estaActivo() const {

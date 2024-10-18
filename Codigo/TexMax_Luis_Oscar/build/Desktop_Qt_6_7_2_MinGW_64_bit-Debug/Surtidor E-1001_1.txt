@@ -26,3 +26,45 @@ Método de Pago: Efectivo
 ID Cliente: Cliente 0
 Dinero: 70000.000000
 --------------------------
+Fecha: 2024-10-17
+Tipo de Combustible: Regular
+Cantidad: 3.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 15000.000000
+--------------------------
+Fecha: 2024-10-17
+Tipo de Combustible: Premium
+Cantidad: 7.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 35000.000000
+--------------------------
+Fecha: 2024-10-17
+Tipo de Combustible: Regular
+Cantidad: 6.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 30000.000000
+--------------------------
+Fecha: 2024-10-17
+Tipo de Combustible: Premium
+Cantidad: 3.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 45000.000000
+--------------------------
+Fecha: 2024-10-17
+Tipo de Combustible: Premium
+Cantidad: 18.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 18.000000
+--------------------------
+Fecha: 2024-10-17
+Tipo de Combustible: EcoExtra
+Cantidad: 6.000000
+Método de Pago: Efectivo
+ID Cliente: Cliente 0
+Dinero: 6.000000
+--------------------------

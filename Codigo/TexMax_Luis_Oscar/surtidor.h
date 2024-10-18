@@ -18,8 +18,8 @@ private:
 public:
     Surtidor(std::string modelo);
     void registrarVenta(Transaccion* transaccion);
-    Transaccion* simularVenta(float litros, std::string tipo);
-    float calcularMonto(float litros, std::string tipo);
+    Transaccion* simularVenta(float litros, std::string tipo, float precio);
+    float calcularMonto(float litros, std::string tipo, float precio);
     bool estaActivo() const;
     void actualizarEstado(bool estado);
     int obtenerCodigo() const;
