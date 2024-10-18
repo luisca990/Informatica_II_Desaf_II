@@ -14,6 +14,7 @@ public:
     void ajustarCapacidad(float cantidad);
     std::string obtenerTipo() const;
     float obtenerCapacidad() const;
+    float obtenerPrecio() const;
 };
 
 #endif // COMBUSTIBLE_H

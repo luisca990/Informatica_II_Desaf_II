@@ -14,3 +14,7 @@ std::string Combustible::obtenerTipo() const {
 float Combustible::obtenerCapacidad() const {
     return capacidad;
 }
+
+float Combustible::obtenerPrecio() const{
+    return precioPorLitro;
+}

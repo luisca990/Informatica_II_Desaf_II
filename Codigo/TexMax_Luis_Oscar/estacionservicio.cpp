@@ -11,9 +11,9 @@ EstacionServicio::EstacionServicio(std::string nombre, std::string gerente, std:
     capacidadInicialTanque[0]=generarNumeroAleatorio(100,200);
     capacidadInicialTanque[1]=generarNumeroAleatorio(100,200);
     capacidadInicialTanque[2]=generarNumeroAleatorio(100,200);
-    tanques[0] = new Combustible("Regular",capacidadInicialTanque[0] , 150);
-    tanques[1] = new Combustible("Premium", capacidadInicialTanque[1], 100);
-    tanques[2] = new Combustible("EcoExtra", capacidadInicialTanque[2], 120);
+    tanques[0] = new Combustible("Regular",capacidadInicialTanque[0] , leerFloat("Ingrese el precio para combustible Regular: "));
+    tanques[1] = new Combustible("Premium", capacidadInicialTanque[1], leerFloat("Ingrese el precio para combustible Premium: "));
+    tanques[2] = new Combustible("EcoExtra", capacidadInicialTanque[2], leerFloat("Ingrese el precio para combustible EcoExtra: "));
 }
 
 std::string EstacionServicio::generarCodigo() {
@@ -50,7 +50,7 @@ void EstacionServicio::simularVenta() {
     float litrosSolicitados =generarNumeroAleatorio(3,20);
 
     Transaccion* transaccion = surtidorActivo->simularVenta(litrosSolicitados,
-                                                            tanques[tipoCombustible]->obtenerTipo());
+                                                            tanques[tipoCombustible]->obtenerTipo(),tanques[tipoCombustible]->obtenerPrecio());
     tanques[tipoCombustible]->ajustarCapacidad(litrosSolicitados);
 
     std::cout << "Venta simulada: " << transaccion->obtenerDatos() << "\n";

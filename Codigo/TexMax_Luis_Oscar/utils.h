@@ -9,6 +9,7 @@ struct ventasCategoria {
     float Premium=0.0;
     float EcoExtra=0.0;
 };
+
 const std::string opcionesPago[] = { "Efectivo", "TDebito", "TCredito" };
 short generarNumeroAleatorio(short inicio, short fin);
 std::string leerString(const char* mensaje);
